@@ -1,0 +1,49 @@
+title : Les bases de JPAAAAA
+plan:
+  - title: Entity definition
+    statement: markdowns/entity.md
+  - title: Associations 1 - 1
+    statement: markdowns/association1-1.md
+  - title: Associations 1 - N
+    statement: markdowns/association1-N.md
+  - title: Association N - N
+    statement: markdowns/associationN-N.md
+  - title: Stratégies de chargement
+    statement: markdowns/lazyloading.md
+
+projects:
+  entity:
+    root: /projects/entity
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  onetoone:
+    root: /projects/onetoone
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  onetomany:
+    root: /projects/onetomany
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  onetomany:
+    root: /projects/onetomany
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  manytoone:
+    root: /projects/manytoone
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  manytomany:
+    root: /projects/manytomany
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
+  lazyloading:
+    root: /projects/lazyloading
+    runner:
+      name: codingame/java-maven3-junit4-runner
+      version: latest
